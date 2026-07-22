@@ -1,0 +1,27 @@
+AI-Powered Smart Document and Contract Comparator: Put an End to Overlooked Risks!
+In the business world, legal departments, or software projects, we constantly encounter new versions of contracts, specifications, and official documents. Often, revisions are presented with the statement, "We've only changed a few words," but visually checking each one takes hours, and a single overlooked word can create significant legal risks in the future.
+
+To solve this problem, I developed AI Contract Comparator, which goes beyond traditional text comparison tools by offering both visual and logical analysis.
+
+🚀 What Does This Application Do?
+The application simultaneously processes two different PDF documents uploaded to the system (e.g., an old and a new version of a contract) through a two-stage filter:
+
+Word and Line-Based Visual Analysis: Using Python's difflib library, it displays all added ([ADDED]) or deleted ([DELETED]) statements line by line in a color-coded interface.
+
+AI-Based Risk and Logic Analysis: Thanks to the Groq API and Llama 3.3 large language model running in the background, it analyzes what the changes in the text mean legally, financially, or operationally. It not only lists the changes but also generates intelligent comments such as "This new clause increases your liability" or "The termination period has been extended, this may create a risk."
+
+Multiple Language Support: With 6 different language options (Turkish, English, German, French, Spanish, Russian), both the application interface and the AI-generated analysis report dynamically adapt to the selected language.
+
+👥 Who Can Use the Application and in Which Fields Can It Be Used?
+This tool is flexible enough to be integrated into the workflow of anyone working with text-based processes and looking to accelerate document revision processes:
+
+Legal Counselors and Lawyers: Can use it to instantly spot potentially ulterior motives or altered legal obligations hidden by the counterparty in multi-page contract revisions.
+
+Software Developers and Project Managers: Can review scope changes and updates to intellectual property rights in service agreements (SLAs), work descriptions (SoWs), or technical specifications.
+
+Human Resources (HR) Professionals: Can review changed versions of employment contracts, consent forms, or internal regulations before announcing them to personnel.
+
+Purchasing and Trade Departments: Can accurately track financial terms such as price, payment terms, delivery conditions, and late payment interest in supplier contracts.
+
+🎯 Who Benefits Most from This Application?
+Companies engaged in international trade, freelance professionals, and small and medium-sized enterprises (SMEs) managing high volumes of document traffic will benefit most from this application. For professionals who lack access to large-budget corporate legal software or who encounter language barriers when reviewing contracts in foreign languages ​​(English, German, etc.), this tool provides significant time savings and offers legal assurance by eliminating operational blind spots.
